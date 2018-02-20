@@ -1,0 +1,44 @@
+{
+  "name": "unity-cloud-build-to-hockeyapp",
+  "version": "1.1.0",
+  "description": "Receives a payload from Unity Cloud Build webhook. Downloads the binary and posts to the HockeyApp API. Automating deployment from Unity Cloud Build to Hockeyapp.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "form-data": "0.2.0",
+    "lodash": "4.13.1",
+    "najax": "0.7.1",
+    "swagger-client": "^2.1.16",
+    "unitycloudbuild-client": "git+https://github.com/unitychrism/ucb-nodejs-client"
+  },
+  "engines": {
+    "node": "6.9.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Nathan Broadbent",
+  "contributors": [
+    "Nigel Rodriguez"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Soupware/unitycloudbuildhockeyapp.git"
+  },
+  "keywords": [
+    "ucb",
+    "unity",
+    "cloud",
+    "build",
+    "hockeyapp"
+  ],
+  "bugs": {
+    "url": "https://github.com/Soupware/unitycloudbuildhockeyapp/issues"
+  },
+  "homepage": "https://github.com/Soupware/unitycloudbuildhockeyapp"
+}

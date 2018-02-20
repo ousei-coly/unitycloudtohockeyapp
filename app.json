@@ -1,0 +1,11 @@
+{
+  "name": "Unity Cloud Build to HockeyApp",
+  "description": "Receives a payload from Unity Cloud Build webhook. Downloads the binary and posts to the HockeyApp API.",
+  "repository": "https://github.com/Soupware/unitycloudbuildhockeyapp.git",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["unity", "cloud", "build", "hockeyapp"],
+  "env": {
+        "UNITYCLOUD_KEY": "abc123",
+        "HOCKEYAPP_KEY": "abc123"
+  }
+}
